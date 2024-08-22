@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Responsive Navbar</title>
 </head>
 <body>
-    <h1 id="home" class="hom">Home Page</h1>
+    <header>
+        <h2 id="heading">Responsive Nav bar</h2>
+        <h6 id="subHeading">Fully responsive across different devices</h6>
+    </header>
+    <nav role="navigation" aria-label="Main Navigation">
+        <div class="mainDiv">
+            <div class="iconDiv">
+                <img src="Icon.png" alt="Waterdrop Icon" width="21.33px" height="25.75px" role="img" aria-label="Waterdrop Icon">
+                <h6 id="navHead">Waterdrop</h6>
+            </div>
+            <div class="linkDiv">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#insights">Insights</a></li>
+                    <li><a href="#locations">Locations</a></li>
+                    <li><a href="#dots">...</a></li>
+                </ul>
+            </div>
+            <div class="buttonDiv">
+                <ul>
+                    <li><button id="signin" aria-label="Sign in to your account">Sign in</button></li>
+                    <li><button id="signup" aria-label="Sign up to create new account">Sign up</button></li>
+                </ul>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
