@@ -1,0 +1,7 @@
+
+> web-development@1.0.0 build:postcss
+> gulp build
+
+[14:49:26] Using gulpfile D:\Projects\Trenser\Repos\WebDevelopment\gulpfile.js
+[14:49:26] Starting 'build'...
+[14:49:26] Finished 'build' after 124 ms
