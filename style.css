@@ -12,7 +12,6 @@ header {
     font-weight: 600;
     font-size: 47px;
     line-height: 70.5px;
-    @mixin setFont 600, 47px, 70.5px;
 }
 
 #subHeading {
