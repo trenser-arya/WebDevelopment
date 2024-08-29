@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../bmi-calculator.css">
+    <script src="../../bmi-calculator.js"></script>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <main class="main-class">
+        <section id="main-section">
+            <header>
+                <h1 id="heading">
+                    <span id="first-part">BMI</span>
+                    <span id="second-part"> Calculator</span>
+                    <p class="instruction">Please modify the values</p>
+                </h1>
+            </header>
+            <main id="section-main2">
+                <div id="outer-div">
+                    <div id="inner-div">
+                    <label for="weight">Weight (kg)</label>
+                    <span id="weight" name="weight" value="weight">50</span>
+                    <div id="button-div">
+                    <button id="decrease-weight">-</button>
+                    <button id="increase-weight">+</button>
+                </div>
+                </div>
+                <div id="inner-div">
+                    <label for="age">Age</label>
+                    <span id="age" name="age" value="age">30</span>
+                    <div id="button-div">
+                    <button id="decrease-age">-</button>
+                    <button id="increase-age">+</button>
+                </div>
+                </div>
+                </div>
+                <div id="height-div">
+                    <label for="height">Height (cm)</label>
+                    <span id="height" name="height" value="height">100</span>
+                    <div id="button-div">
+                    <button id="decrease-height">-</button>
+                    <button id="increase-height">+</button>
+                </div>
+                </div>
+            </main>
+            <button id="calculate-button">Calculate</button>
+            <dialog id="bmiDialog">
+                <h2>Your BMI:</h2>
+                <div id="bmi-value"></div>
+                <div id="status"></div>
+                <div class="info">
+                    <p id="weight-paragraph"></p>
+                    <p id="height-paragraph"></p>
+                    <p id="age-paragraph"></p>
+                    <p id="gender-paragraph"></p>
+                </div>
+                <button class="close-btn" id="closeBtn">Close</button>
+            </dialog>
+        </section>
+    </main>
+</body>
+</html>
